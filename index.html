@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>壁纸画廊 - Wallpaper Gallery</title>
+    <script>
+      // Prevent dark mode flash: apply class before Vue mounts
+      (function() {
+        try {
+          var user = JSON.parse(localStorage.getItem('wallpaper_user') || '{}');
+          // If we stored theme preference, use it; otherwise check system
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            isDark = true;
+          }
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
