@@ -1,4 +1,4 @@
-# Wallcraft — 手机壁纸画廊
+<img width="1898" height="988" alt="image" src="https://github.com/user-attachments/assets/b243815b-8577-4f8e-b397-43b6d450d680" /># Wallcraft — 手机壁纸画廊
 
 <div align="center">
 
@@ -113,6 +113,15 @@ npm run preview
 ```
 
 无需后端，所有数据由 Mock 服务层提供。
+
+## 页面展示
+
+<img width="1910" height="984" alt="Screenshot 2026-07-08 172709" src="https://github.com/user-attachments/assets/be4c1c50-7d7d-4efb-b045-f31f9cfc2c3a" />
+<img width="1906" height="985" alt="Screenshot 2026-07-08 172719" src="https://github.com/user-attachments/assets/10a9fb0d-a3ca-49d0-9e35-cf599fc3b8a4" />
+<img width="1898" height="988" alt="image" src="https://github.com/user-attachments/assets/8bf70747-772a-4767-a064-262be3bd64cb" />
+<img width="1913" height="979" alt="Screenshot 2026-07-08 172734" src="https://github.com/user-attachments/assets/a307839c-2f74-4967-b1cc-36ce12cf52e2" />
+<img width="1887" height="988" alt="image" src="https://github.com/user-attachments/assets/8b0dd834-7658-4ade-a7e1-4c4936638dde" />
+
 
 ## 🧩 关键架构决策
 
