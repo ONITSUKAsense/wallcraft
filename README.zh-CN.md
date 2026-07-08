@@ -1,4 +1,4 @@
-<img width="1898" height="988" alt="image" src="https://github.com/user-attachments/assets/b243815b-8577-4f8e-b397-43b6d450d680" /># Wallcraft — 手机壁纸画廊
+# Wallcraft — 手机壁纸画廊
 
 <div align="center">
 
